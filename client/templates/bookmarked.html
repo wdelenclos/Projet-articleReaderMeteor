@@ -1,0 +1,61 @@
+
+<template name="bookmarked">
+      <header class="header">
+      </header>
+
+      <h1>bookmarked</h1>
+      <div  class="container" id="container">
+        <ul>
+
+          {{#each getBookmarked}}
+
+              <li class="card" id="{{this._id}}">
+                    <h2>{{cate}}</h2>
+                  <section class="section-article-main">
+                      <article class="Article_Main" >
+                          <div class="Article_main_contener">
+                              <img src="{{img_url}}" alt="article main" class="img-article-main">
+                              <div class="text-article">
+                                  <h3>{{title}}</h3>
+                                  <p class="legende-article">{{subtitle}}</p>
+                                  <p class="date"> {{date}}</p>
+                                  <p class="text-courant">
+                                    {{desc}}
+                                      </p>
+                              </div>
+                          </div>
+                          <div class="button" style="background-color: #f7713c">
+                              <i class="fa fa-bookmark book" aria-hidden="true" style="color: #fff"></i>
+                          </div>
+
+
+                      </article>
+                  </section>
+
+          </li>
+          {{/each}}
+
+       </ul>
+      </div>
+
+      <section class="section-nav">
+          <nav class="action-bar">
+              <ul>
+                  <li class="home picto-nav">
+
+                  </li>
+                  <li class="search picto-nav">
+
+                  </li>
+                  <li class="filter picto-nav">
+
+                  </li>
+                  <li class="profil picto-nav">
+
+                  </li>
+              </ul>
+
+          </nav>
+      </section>
+
+</template>

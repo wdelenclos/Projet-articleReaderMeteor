@@ -1,0 +1,74 @@
+<template name="single_article">
+  <header class="header">
+
+  </header>
+
+  <h1>Détail de l'article</h1>
+
+{{ getArticles}}
+  <h2>{{cate}}</h2>
+
+  <section class="section-article">
+      <article class="Article">
+          <section class="Article_contener">
+              <img src="img/img_article_main.jpg" alt="article main" class="img-article">
+              <section class="chapo" >
+                  {{desc}}
+
+               </section>
+
+                  <section class="separation"></section>
+
+                  <p class="text-courant-article">
+                      {{desc}}
+                  </p>
+
+
+          </section>
+      </article>
+      <section class="separation-end-article">
+          </section>
+
+          <section class="author">
+              <section class="img-author"></section>
+              <section class="description-author">
+                  <p class="written-by">Written by</p>
+                  <p class="name-author">Amélie</p>
+              </section>
+          </section>
+          <section class="hasthags">
+                  <p class="hastags-text">#Nature, #news</p>
+              </section>
+  </section>
+
+  <section class="button-fb">
+      <section class="separation-button"></section>
+      <p class="text-button"> Partage</p>
+  </section>
+
+  <section class="button-twitter">
+      <section class="separation-button"></section>
+      <p class="text-button"> Partage</p>
+  </section>
+
+  <section class="section-nav" style="margin-top: 0;">
+      <nav class="action-bar">
+          <ul>
+              <li class="home picto-nav">
+
+              </li>
+              <li class="search picto-nav">
+
+              </li>
+              <li class="filter picto-nav">
+
+              </li>
+              <li class="profil picto-nav">
+
+              </li>
+          </ul>
+
+      </nav>
+  </section>
+
+</template>

@@ -1,0 +1,381 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ *{
+	moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #333;
+}
+@font-face {
+    font-family: 'MaWebFont';
+    src: url('fonts/MaWebFont.eot');
+    src: url('fonts/MaWebFont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MaWebFont.woff2') format('woff2'),
+         url('fonts/MaWebFont.woff') format('woff'),
+         url('fonts/MaWebFont.ttf') format('truetype'),
+         url('fonts/MaWebFont.svg#firasans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body{
+	width: 375px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+}
+
+.header {
+	background-color: #f7713c;
+	width: 375px;
+	height: 62px;
+	display: block;
+}
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+	font-size: 12px;
+	color: #f7713c;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 30px;
+}
+ .article-main{
+
+ }
+
+.actions{
+		width: 250px;
+		background-color: #FF5722;
+		margin: -55px auto 0;
+		border-radius: 4px;
+			box-sizing: border-box;
+}
+
+.actions button{
+	width: 49%;
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	cursor: pointer;
+}
+.actions button:hover{
+	background-color: #F4511E;
+}
+.Article_main_contener {
+	width: 250px;
+  max-height: 415px;  /* supp */
+	padding-bottom: 40px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	background-color: #e6e6e6;
+	margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Article_main_contener .img-article-main {
+	width: 250px;
+	height: 145px;
+}
+
+.text-article {
+	padding-left: 17px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 12px;
+	margin-bottom: 6px;
+}
+
+.legende-article {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 6px;
+}
+
+.date {
+	font-size: 8px;
+	font-weight: 700;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	position: relative;
+	left: 168px;
+
+}
+
+.text-courant {
+	font-size: 14px;
+	margin-top: 12px;
+	line-height: 16px;
+}
+
+.button {
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	position: relative;
+  left: 165px;
+  bottom: 25px;
+  text-align: center;
+
+}
+
+.plus-button {
+	color: white;
+	font-size: 24px;
+	padding-top: 14px;
+}
+
+.action-bar {
+	height: 50px;
+	width: 375px;
+	background-color: #e6e6e6;
+	text-align: center;
+}
+
+.picto-nav {
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	background-size: 20px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+  padding: 0 90px 0 0;
+	cursor: pointer;
+}
+.fa-bookmark-o, .fa-bookmark{
+	color: #424242;
+	padding-top: 17px;
+}
+
+.fa-trash, .fa-angle-right{
+	color: #fff;
+	cursor: pointer;
+}
+.home {
+	background-image: url("http://image.flaticon.com/icons/svg/263/263115.svg");
+	background-repeat: no-repeat;
+}
+.section-nav{
+	margin-top: 540px
+}
+.search {
+	background-image: url("http://image.flaticon.com/icons/svg/149/149309.svg");
+}
+
+.filter {
+	background-image: url("http://image.flaticon.com/icons/svg/149/149264.svg");
+}
+
+.profil {
+	background-image: url("http://image.flaticon.com/icons/svg/126/126486.svg");
+	padding-right: 5px;
+}
+
+.card{
+	position: absolute;
+	width: 382px;
+  cursor: pointer;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  opacity: 0;
+}
+
+.card:last-child { opacity: 1; }
+
+
+/********      ARTICLE        *********/
+
+.prev {
+	background-color: #f87f50;
+	width: 62px;
+	height: 62px;
+}
+
+.section-article {
+	width: 335px;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.img-article {
+	width: 335px;
+	height: 186.5px;
+}
+
+.chapo {
+	font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    width: 320px;
+}
+
+.text-courant-article {
+	font-size: 14px;
+	margin-top: 12px;
+	line-height: 16px;
+	text-align: left;
+	margin-bottom: 43px;
+}
+
+.text-courant-article:first-child {
+	margin-bottom: 20px;
+}
+
+.separation-end-article {
+	width: 335px;
+	height: 1px;
+	background-color: #9a9a9a;
+	margin-bottom: 15px;
+}
+
+.author {
+margin-left: 20px;
+}
+
+.img-author {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-image: url("http://www.nikonpassion.com/wp-content/uploads/2011/08/jeromegeoffroy.jpg");
+	-webkit-background-size: 111px 70px;
+	background-position: -30px -2px;
+}
+
+.description-author {
+	float: left;
+	position: relative;
+	left: 60px;
+    bottom: 35px;
+}
+
+.written-by {
+	font-size: 10px;
+}
+
+.name-author {
+	font-size: 14px;
+	font-weight: 900;
+	color: #f7713c;
+}
+
+.hasthags {
+	float: right;
+}
+
+.hastags-text {
+	font-size: 10px;
+	font-weight: 700;
+	color: #8d8d8d;
+	position: relative;
+    bottom: 30px;
+}
+
+.section-nav {
+	clear: both;
+}
+
+.button-fb {
+	width: 156px;
+	height: 35px;
+	background-color: #30468a;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
+
+.separation-button {
+	height: 15px;
+	width: 2px;
+	background-color: white;
+	position: relative;
+	left: 60px;
+	top: 10px;
+}
+
+.text-button {
+	color: white;
+	display: inline-block;
+    position: relative;
+    bottom: 6px;
+    font-size: 14px;
+    left: 70px;
+}
+
+.button-twitter {
+	width: 156px;
+	height: 35px;
+	background-color: #4b99f1;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}

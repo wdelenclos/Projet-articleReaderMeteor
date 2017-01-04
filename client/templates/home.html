@@ -1,0 +1,67 @@
+<template name="home">
+      <header class="header">
+
+      </header>
+
+      <h1>Vos articles</h1>
+      <div  class="container" id="container">
+        <ul>
+
+          {{#each getArticles}}
+
+              <li class="card" id="{{this._id}}">
+                    <h2>{{cate}}</h2>
+                  <section class="section-article-main">
+                      <article class="Article_Main" >
+                          <div class="Article_main_contener">
+                              <img src="{{img_url}}" alt="article main" class="img-article-main">
+                              <div class="text-article">
+                                  <h3>{{title}}</h3>
+                                  <p class="legende-article">{{subtitle}}</p>
+                                  <p class="date"> {{date}}</p>
+                                  <p class="text-courant">
+                                    {{desc}}
+                                      </p>
+                              </div>
+                          </div>
+                          <div class="button">
+
+                                  <i class="fa fa-bookmark-o book" aria-hidden="true"></i>
+
+
+                          </div>
+                          <div class="actions">
+                            <button class="archive_btn">  <i class="fa fa-trash" aria-hidden="true"></i></button>
+                            <button class="next_btn">  <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                          </div>
+
+                      </article>
+                  </section>
+
+          </li>
+          {{/each}}
+
+       </ul>
+      </div>
+
+      <section class="section-nav">
+          <nav class="action-bar">
+              <ul>
+                  <li class="home picto-nav">
+
+                  </li>
+                  <li class="search picto-nav">
+
+                  </li>
+                  <li class="filter picto-nav">
+
+                  </li>
+                  <li class="profil picto-nav">
+
+                  </li>
+              </ul>
+
+          </nav>
+      </section>
+
+</template>

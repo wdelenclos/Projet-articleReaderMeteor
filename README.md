@@ -2,7 +2,7 @@
 
 Projet sur Meteor: intégration par __Jeremy Lesdema__ et Dev par __Wladimir Delenclos __
 
-_Requis: Meteor_
+_Requis: Le framework Meteor ..._
 
 __NB: si vous êtes sur un serveur local, vous devez utiliser cette extention sur chorme pour permettre à chrome de lire le flux RSS. https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi__
 
